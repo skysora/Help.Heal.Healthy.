@@ -1,0 +1,33 @@
+version: '2.2'
+services:
+  db:
+      image: mariadb/server:10.3
+      container_name: 'Help_Heal_Healthy_db'
+      environment:
+        - MYSQL_ROOT_PASSWORD=050042
+        - MYSQL_USER="root"
+        - MYSQL_DATABASE:Help.Heal.Healthy
+        - MYSQL_PASSWORD=050042
+      ports:
+        - "5500:3306"
+      volumes:
+         - ./sql:/docker-entrypoint-initdb.d
+         - ./sql:/var/lib/mysql
+      networks:
+        - my-network
+      restart: always
+  app:
+      build: ./flask-app
+      container_name: 'Help_Heal_Healthy_app' 
+      depends_on:
+            - db
+      ports:
+        - 8889:8888
+      volumes:
+        - ./flask-app:/flask-app
+      networks:
+        - my-network
+      restart: always
+networks:
+  my-network:
+    driver: bridge

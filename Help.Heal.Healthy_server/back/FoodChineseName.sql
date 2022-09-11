@@ -1,0 +1,21 @@
+use iosApp;
+alter table food add column chineseName char(20);
+update food set chineseName = "牛排" where id = 1;
+update food set chineseName = "牛肉麵" where id = 2;
+update food set chineseName = "水餃" where id = 3;
+update food set chineseName = "龍眼" where id = 4;
+update food set chineseName = "枇杷" where id = 5;
+update food set chineseName = "荔枝" where id = 6;
+update food set chineseName = "東坡肉" where id = 7;
+update food set chineseName = "蒸蓮藕" where id = 8;
+update food set chineseName = "湯圓" where id = 9;
+update food set chineseName = "炒高麗菜" where id = 10;
+update food set chineseName = "炒花椰菜" where id = 11;
+update food set chineseName = "牛奶" where id = 12;
+update food set chineseName = "優格" where id = 13;
+update food set chineseName = "優酪乳" where id = 14;
+update food set chineseName = "開心果" where id = 15;
+update food set chineseName = "葵花籽" where id = 16;
+update food set chineseName = "杏仁" where id = 17;
+select * from food;
+

@@ -1,0 +1,13 @@
+flask
+flask_restful
+requests
+pymysql
+datetime
+tensorflow
+setuptools
+yolov4
+wheel
+numpy
+opencv-python
+jsonpickle
+Image
