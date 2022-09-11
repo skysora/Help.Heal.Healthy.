@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "34C38EF2-4B17-431F-B786-C5937409FFB4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDD2B67C-FDE1-4146-B6B0-56D0A58A3523"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Help.Heal.Healthy-sunflower/ViewController/DataOutputViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDD2B67C-FDE1-4146-B6B0-56D0A58A3523 - 5ef5a4212dafc3cf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Help_Heal_Healthy_sunflower.DataOutputViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Help.Heal.Healthy-sunflower"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuminghaung/Desktop/Help.Heal.Healthy/Help.Heal.Healthy-sunflower/ViewController/DataOutputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "671">
+               </Location>
+               <Location
+                  uuid = "BDD2B67C-FDE1-4146-B6B0-56D0A58A3523 - 2296aeb9ae0e03b3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;__C.UIImage&gt;) -&gt; () in Help_Heal_Healthy_sunflower.DataOutputViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Help.Heal.Healthy-sunflower"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuminghaung/Desktop/Help.Heal.Healthy/Help.Heal.Healthy-sunflower/ViewController/DataOutputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B68268D-CF13-4EAD-A9C3-1873CD71CE14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Help.Heal.Healthy-sunflower/ViewController/DataOutputViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42429A01-3855-4539-9BE3-A16ADEF120AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Help.Heal.Healthy-sunflower/ViewController/FoodSearch/FoodCheckListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "insertButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

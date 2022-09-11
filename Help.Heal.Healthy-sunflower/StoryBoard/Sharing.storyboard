@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qTh-Le-JAN">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="h4A-Jx-iOA">
+            <objects>
+                <viewController storyboardIdentifier="Sharing" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qTh-Le-JAN" customClass="SharingViewController" customModule="Help_Heal_Healthy_sunflower" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lkQ-yb-4eI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topBackBround" translatesAutoresizingMaskIntoConstraints="NO" id="dkd-Zn-Pci">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="DX7-ll-1b5"/>
+                                    <constraint firstAttribute="height" constant="140" id="NVX-6h-8Fk"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="JIE-2G-yAF">
+                                <rect key="frame" x="0.0" y="148" width="926" height="462"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="ulu-1S-aF4"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Rlr-2I-wFf"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="s9L-nC-yZ4"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZrN-Qt-dgL">
+                                <rect key="frame" x="82" y="701" width="250" height="50"/>
+                                <color key="backgroundColor" red="0.99384278059999998" green="0.792350471" blue="0.39990437029999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="957-Gq-tpO"/>
+                                    <constraint firstAttribute="height" constant="50" id="aVf-ed-GbD"/>
+                                </constraints>
+                                <state key="normal" title="分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareClick:" destination="qTh-Le-JAN" eventType="touchUpInside" id="mLn-V5-FoX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99144607780000005" green="0.95425075290000005" blue="0.85880976919999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="dkd-Zn-Pci" firstAttribute="leading" secondItem="UXB-KQ-6C5" secondAttribute="leading" id="2KE-R1-PJf"/>
+                            <constraint firstItem="UXB-KQ-6C5" firstAttribute="bottom" secondItem="ZrN-Qt-dgL" secondAttribute="bottom" constant="62" id="AnW-sk-VIF"/>
+                            <constraint firstItem="dkd-Zn-Pci" firstAttribute="trailing" secondItem="UXB-KQ-6C5" secondAttribute="trailing" id="FU8-iC-bnP"/>
+                            <constraint firstItem="ZrN-Qt-dgL" firstAttribute="centerX" secondItem="lkQ-yb-4eI" secondAttribute="centerX" id="aev-EK-0FD"/>
+                            <constraint firstItem="dkd-Zn-Pci" firstAttribute="top" secondItem="lkQ-yb-4eI" secondAttribute="top" id="uuM-GP-NSJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UXB-KQ-6C5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="mgY-m0-Pnj">
+                        <color key="badgeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="shareBtn" destination="ZrN-Qt-dgL" id="qHV-Zf-pZI"/>
+                        <outlet property="shareImageScrollView" destination="JIE-2G-yAF" id="Bqv-aT-Ds2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0kB-QY-2dt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.376811594202906" y="0.6696428571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="topBackBround" width="207" height="70"/>
+    </resources>
+</document>
